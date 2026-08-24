@@ -14,12 +14,6 @@ Built entirely in Power BI, the project covers the full analytics workflow: data
 ## Problem Statement
 The business had raw transactional data spread across multiple disconnected tables (orders, returns, products, customers, territories) with no centralized way to track performance or make investment decisions. Assessing where the business is actually winning and losing money requires synthesizing order-level sales, return behavior, customer demographics, and geography — information that is typically scattered across separate exports, inconsistent in format, and difficult to interpret without dedicated analysis.
 
-## Core Challenges
-
-Fragmented data sources. Sales, returns, product, customer, and territory data are published as separate tables with no built-in way to relate revenue to profitability or customer value.
-No profitability lens. Raw revenue numbers carry limited meaning in isolation — a category can look like the top performer by revenue while quietly being the least profitable, and that only becomes visible once cost is joined in.
-Disconnected regional and customer narratives. Revenue growth alone doesn't reveal where it's coming from or who is driving it; connecting country-level performance, return-rate risk, and customer-priority segmentation requires cross-indicator analysis that isn't available in a flat spreadsheet.
-No self-service exploration. Stakeholders needed a single, filterable, drill-down interface rather than static reports that only answer one question at a time.
 
 ## Objectives
 Consolidate sales, returns, customer, product, and territory data into a single relational data model.
@@ -34,27 +28,38 @@ Deliver the analysis as an interactive, explorable report rather than a static s
 Tools
 
 Power BI Desktop
+
 Power BI Fabric (publish + share link)
+
 Power Query
 
 Skills
 
 Data Modeling (Hybrid Star–Snowflake Schema)
+
 DAX (Measures, calculated columns, time intelligence)
+
 Data Cleaning & Transformation (ETL)
+
 Data Visualization
+
 Business/Commercial Analysis
 
 Techniques
 
 Conditional formatting
+
 KPI cards
+
 Toggle-driven metric switching (Revenue/Profit/Order Qty/Cost)
+
 Correlation between revenue and margin
+
 Geographic mapping
+
 ## Datasets
 
-The dataset is provided as individual CSV files inside the Dataset folder (rather than a single zip), so each table is directly browsable and previewable on GitHub, and any future update to one table shows up as a clean diff instead of re-uploading a whole archive.
+The dataset is provided as individual CSV files inside the Adventure Work All Table Dataset folder (rather than a single zip), so each table is directly browsable and previewable on GitHub, and any future update to one table shows up as a clean diff instead of re-uploading a whole archive.
 https://github.com/LaboniAkter84/Sales-Analysis-Dashboard-/tree/main/Adventure%20Work%20All%20Table%20Dataset
 
 
