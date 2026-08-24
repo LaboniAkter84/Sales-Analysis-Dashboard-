@@ -97,75 +97,70 @@ Every page shares the same global KPI header — Total Revenue $24.91M, Total CO
 <img width="1432" height="801" alt="Home page" src="https://github.com/user-attachments/assets/e68f4bfc-49f9-4b6d-bb77-ce3e1439feb2" />
 
 
-**Revenue by Year and Quarter:** Revenue holds fairly flat through 2020–2021, then inflects sharply upward starting Q3 2021 and continues climbing into Q1–Q2 2022 — a clear recent growth phase worth investigating for its underlying driver (new markets, seasonality, or a product push).
+**Revenue by Year and Quarter**
+Revenue holds fairly flat through 2020–2021, then inflects sharply upward starting Q3 2021 and continues climbing into Q1–Q2 2022 — a clear recent growth phase worth investigating for its underlying driver (new markets, seasonality, or a product push).
 
-**Subcategory Performance:** (Revenue / COGS / Profit / Profit %). Helmets lead both revenue ($205.8K) and margin (63.66%), followed by Fenders, Vests, Bike Racks, Cleaners, and Bike Stands, which cluster tightly around a consistent ~62.6% margin — a remarkably stable accessory subcategory once bikes are excluded.
+**Subcategory Performance**
+(Revenue / COGS / Profit / Profit %). Helmets lead both revenue ($205.8K) and margin (63.66%), followed by Fenders, Vests, Bike Racks, Cleaners, and Bike Stands, which cluster tightly around a consistent ~62.6% margin — a remarkably stable accessory subcategory once bikes are excluded.
 
-**Revenue by Gender:** An almost even split — Female 50.23%, Male 49.14%, 0.63% unclassified — showing the customer base isn't gender-skewed, so marketing doesn't need to over-index on one gender.
+**Revenue by Gender**
+An almost even split — Female 50.23%, Male 49.14%, 0.63% unclassified — showing the customer base isn't gender-skewed, so marketing doesn't need to over-index on one gender.
 
-**Revenue by Product Color:** Black dominates at 7.9M, nearly double the next color (Red, 4.9M), followed by Yellow (4.6M) and Silver (4.4M), with Blue, NA, Multi, and White trailing far behind — a direct signal for inventory and purchasing to prioritize the top four colors.
+**Revenue by Product Color**
+Black dominates at 7.9M, nearly double the next color (Red, 4.9M), followed by Yellow (4.6M) and Silver (4.4M), with Blue, NA, Multi, and White trailing far behind — a direct signal for inventory and purchasing to prioritize the top four colors.
 
-**Return Rate by Occupation** Manual workers return products at by far the highest rate (62.30%), well ahead of Clerical (46.02%), Management (41.74%), Skilled Manual (30.70%), and Professional (23.07%, the lowest). Return-reduction efforts — better sizing guides, clearer product descriptions, fit tools — should be targeted at the Manual and Clerical segments first.
+**Return Rate by Occupation**
+Manual workers return products at by far the highest rate (62.30%), well ahead of Clerical (46.02%), Management (41.74%), Skilled Manual (30.70%), and Professional (23.07%, the lowest). Return-reduction efforts — better sizing guides, clearer product descriptions, fit tools — should be targeted at the Manual and Clerical segments first.
 
 ### 2. Map
 
 <img width="1431" height="804" alt="Mag Images" src="https://github.com/user-attachments/assets/95687462-0a04-4e12-9150-e3239e678965" />
 
 
-**Revenue by Region:** An interactive map plots revenue across North America (Northwest, Southwest, Northeast, Southeast, Central), Europe (UK, France, Germany), and the Pacific (Australia), with metric toggles (Revenue/Profit/Order Qty/Cost) and geography-level toggles (Continent/Country/Region) so the same map supports exploration at any zoom level.
+**Revenue by Region**
+An interactive map plots revenue across North America (Northwest, Southwest, Northeast, Southeast, Central), Europe (UK, France, Germany), and the Pacific (Australia), with metric toggles (Revenue/Profit/Order Qty/Cost) and geography-level toggles (Continent/Country/Region) so the same map supports exploration at any zoom level.
 
-**Growth Momentum — YOY Trend by Continent:** All three continents start close together in 2020, but by 2022 Europe has overtaken North America as the fastest-growing continent, while the Pacific region grows the slowest and lags noticeably by 2022 — flagging Europe as the current growth engine and Pacific as an underperforming region worth investigating.
+**Growth Momentum — YOY Trend by Continent**
+All three continents start close together in 2020, but by 2022 Europe has overtaken North America as the fastest-growing continent, while the Pacific region grows the slowest and lags noticeably by 2022 — flagging Europe as the current growth engine and Pacific as an underperforming region worth investigating.
 
-**Where Revenue Is Leaking:** Return Rate by Country. The United States leads in revenue (7.9M) but also carries a comparatively high return rate, while the UK's return rate spikes even though its revenue (2.9M) is far lower — a signal that the UK market may have a disproportionate returns problem worth a dedicated regional audit (sizing, shipping damage, or product-market fit).
+**Where Revenue Is Leaking**
+Return Rate by Country. The United States leads in revenue (7.9M) but also carries a comparatively high return rate, while the UK's return rate spikes even though its revenue (2.9M) is far lower — a signal that the UK market may have a disproportionate returns problem worth a dedicated regional audit (sizing, shipping damage, or product-market fit).
 
 ### 3. Customer
 
 <img width="1429" height="807" alt="Customer page" src="https://github.com/user-attachments/assets/44c8f0aa-776d-42a4-b099-cb503b599ee5" />
 
 
-**Cost-to-Serve Matrix:** A first-name-level breakdown of Revenue/Profit/Order Qty/Cost across 2020, 2021, and 2022 with running totals, answering "which customers cost the most to serve over time?" — letting analysts spot high-cost or declining customers year over year rather than relying on one aggregated number.
+**Cost-to-Serve Matrix**
+A first-name-level breakdown of Revenue/Profit/Order Qty/Cost across 2020, 2021, and 2022 with running totals, answering "which customers cost the most to serve over time?" — letting analysts spot high-cost or declining customers year over year rather than relying on one aggregated number.
 
-**Top 5 Customers by Revenue:** The top spenders — Ian (128K), Morgan (125K), Chloe (119K), Seth (115K), and Kaitlyn (113K) — are tightly clustered, showing revenue concentration isn't dangerously dependent on a single "whale" customer, but does point to a small VIP cohort worth a dedicated retention strategy.
+**Top 5 Customers by Revenue** 
+The top spenders — Ian (128K), Morgan (125K), Chloe (119K), Seth (115K), and Kaitlyn (113K) — are tightly clustered, showing revenue concentration isn't dangerously dependent on a single "whale" customer, but does point to a small VIP cohort worth a dedicated retention strategy.
 
-**Total Revenue by Customer Priority:** This is the most counter-intuitive finding in the whole report: customers labeled "Average" priority generate the most revenue (12M), followed by "Low" (9M), while "High" (3M) and "High Value" (1M) tiers generate the least revenue. This strongly suggests the current customer-priority labeling is misaligned with actual revenue contribution, and the business may be under-investing attention in its true top-revenue segment while over-prioritizing a small "High Value" tag that isn't actually the most valuable.
+**Total Revenue by Customer Priority**
+This is the most counter-intuitive finding in the whole report: customers labeled "Average" priority generate the most revenue (12M), followed by "Low" (9M), while "High" (3M) and "High Value" (1M) tiers generate the least revenue. This strongly suggests the current customer-priority labeling is misaligned with actual revenue contribution, and the business may be under-investing attention in its true top-revenue segment while over-prioritizing a small "High Value" tag that isn't actually the most valuable.
 
 ### 4. Product
 
 <img width="1431" height="805" alt="Product page" src="https://github.com/user-attachments/assets/c60561c0-56e4-4b3a-885a-5f70f91b9203" />
 
 
-**Product Profitability:** A year-by-year (2020/2021/2022) profit breakdown by product name. Mountain-200 Black, 46 leads at $571.6K total profit, with the rest of the Mountain-200 line filling out the top ranks, followed by the Road-250 series.
+**Product Profitability** 
+A year-by-year (2020/2021/2022) profit breakdown by product name. Mountain-200 Black, 46 leads at $571.6K total profit, with the rest of the Mountain-200 line filling out the top ranks, followed by the Road-250 series.
 
-**Top Selling Category by Revenue:** Bikes overwhelmingly dominate revenue at 24M, dwarfing Accessories (1M) and Clothing (0M) — bikes are clearly the core product line driving the business.
+**Top Selling Category by Revenue**
+Bikes overwhelmingly dominate revenue at 24M, dwarfing Accessories (1M) and Clothing (0M) — bikes are clearly the core product line driving the business.
 
-**Profit % by Category:** This is the nuance that balances the chart above: despite bikes generating the most revenue, Accessories actually carries the highest profit margin (42.39%), followed by Clothing (29.86%), with Bikes the lowest of the three (27.75%). This is a critical strategic insight — the business should consider bundling and upselling accessories with every bike sale, since accessories are both an easy attach-sale and meaningfully more profitable per dollar of revenue.
+**Profit % by Category**
+This is the nuance that balances the chart above: despite bikes generating the most revenue, Accessories actually carries the highest profit margin (42.39%), followed by Clothing (29.86%), with Bikes the lowest of the three (27.75%). This is a critical strategic insight — the business should consider bundling and upselling accessories with every bike sale, since accessories are both an easy attach-sale and meaningfully more profitable per dollar of revenue.
 
-## Repository Structure
+### Conclusion
+
+This Power BI report positions the business's sales performance as strong on the surface ($24.91M revenue, 41.97% profit margin) but reveals several disconnects once profitability, geography, and customer segmentation are layered in. Bikes drive the overwhelming majority of revenue, but Accessories are quietly the most profitable category — a cross-sell opportunity that isn't yet being captured. Europe has become the fastest-growing region, overtaking North America, while the Pacific lags behind. And most notably, the current "High Value" customer tier is not actually the highest-revenue segment — "Average" priority customers are — suggesting the underlying segmentation criteria should be revisited.
+
+Taken together, the dashboard supports a clear narrative: the business has a healthy topline and a fast-growing European market, but the biggest near-term wins are internal — fixing customer segmentation, capturing the Accessories margin opportunity through bundling, and addressing the UK's outsized return rate — rather than needing new markets or new products to grow profitably.
 
 
-Sales-Analysis-Dashboard/ │ ├── README.md # This file — full project documentation ├── Sales_Dashboard.pbix # Power BI source file ├── Sales_Analysis_Dashboard_PowerBI_Link.docx # Fabric/shareable link doc │ ├── Dataset/ │ ├── Sales_Data.csv │ ├── Returns_Data.csv │ ├── Customer_Lookup.csv │ ├── Product_Lookup.csv │ ├── Product_Subcategories_Lookup.csv │ ├── Product_Categories_Lookup.csv │ ├── Territory_Lookup.csv │ └── Calendar.csv │ ├── Images/ │ ├── Home_page.jpeg │ ├── Map_page.jpeg │ ├── Customer_page.jpeg │ ├── Product_page.jpeg │ └── Data_Modeling.jpeg │ └── Video/ └── Dashboard_Demo.mp4 # Full walkthrough / demo recording
-
-## How to Use This Project
-
-1. Clone/download the repo.
-2. Open `Sales_Dashboard.pbix` in Power BI Desktop (free download from Microsoft).
-3. If prompted, update the data source path to point to the extracted `Dataset` folder.
-4. Explore the four pages via the top navigation bar (Home / Map / Customer / Product).
-5. Or skip installation entirely and open the live shared link at the top of this README.
-
-## How to Upload This Project to GitHub (Step-by-Step)
-
-GitHub has a 100 MB hard limit per file, and your `.pbix` and `.mp4` may be large — so a plain `git push` can fail. Here's the safe way to do it.
-
-**Step 1 — Create the repo.** Go to GitHub → New repository → name it, e.g., `sales-analysis-dashboard`. Skip the auto-generated README since you already have one, then copy the repo's clone URL.
-
-**Step 2 — Organize your files locally.** Recreate the folder structure above on your computer and drop each file into its matching folder — CSVs into `Dataset/`, screenshots into `Images/`, the video into `Video/`.
-
-**Step 3 — Check file sizes.** If any single file (most likely the `.pbix` or `.mp4`) is over 100 MB, you'll need Git LFS (Large File Storage) — GitHub rejects oversized files otherwise.
-
-**Step 4 — Install Git LFS** (once per machine):
-```bash
-git lfs install
 
 
 
