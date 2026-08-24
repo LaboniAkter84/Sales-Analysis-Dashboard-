@@ -38,12 +38,7 @@ The business had raw transactional data spread across multiple disconnected tabl
 - Power BI Desktop
 - Power BI Fabric (publish + share link)
 - Power Query
-- Skills
-- Data Modeling (Hybrid Star–Snowflake Schema)
-- DAX (Measures, calculated columns, time intelligence)
-- Data Cleaning & Transformation (ETL)
-- Data Visualization
-- Business/Commercial Analysis
+
 
 ### Techniques
 
