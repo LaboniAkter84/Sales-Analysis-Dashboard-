@@ -66,7 +66,7 @@ Dimension/lookup tables — Customer_Lookup, Product_Lookup, Product_Subcategori
 
 ### Data Modeling
 
-The model combines both star and snowflake patterns, depending on the dimension:
+The model combines **both star and snowflake patterns**, depending on the dimension:
 
 **Star-schema dimensions** (connect directly to the fact tables, 1-to-many):
 
@@ -83,6 +83,8 @@ The model combines both star and snowflake patterns, depending on the dimension:
 So the overall design is a hybrid star–snowflake schema: Customer, Territory, and Calendar follow the classic star pattern with direct links to the facts, while the product hierarchy is snowflaked into three normalized tables (Category → Subcategory → Product). This keeps the product hierarchy clean and non-redundant (no repeated category/subcategory text on every product row) while keeping the rest of the model simple and fast to query.
 
 Key DAX measures built on top of this model include Total Revenue, Total COGS, Total Profit, Profit %, Total Order Qty, and Return Rate, used consistently across all four pages.
+
+ **Data Model Screenshot**
 
 <img width="1307" height="792" alt="Data Modeling" src="https://github.com/user-attachments/assets/c376c090-172f-408d-867b-116d3170b620" />
 
@@ -137,6 +139,8 @@ Every page shares the same global KPI header — Total Revenue $24.91M, Total CO
 **Top Selling Category by Revenue:** Bikes overwhelmingly dominate revenue at 24M, dwarfing Accessories (1M) and Clothing (0M) — bikes are clearly the core product line driving the business.
 
 **Profit % by Category:** This is the nuance that balances the chart above: despite bikes generating the most revenue, Accessories actually carries the highest profit margin (42.39%), followed by Clothing (29.86%), with Bikes the lowest of the three (27.75%). This is a critical strategic insight — the business should consider bundling and upselling accessories with every bike sale, since accessories are both an easy attach-sale and meaningfully more profitable per dollar of revenue.
+
+
 
 
 
