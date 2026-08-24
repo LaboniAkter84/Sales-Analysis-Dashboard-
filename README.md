@@ -25,6 +25,14 @@ The business had raw transactional data spread across multiple disconnected tabl
 
 ## Skills, Tools & Technologies
 
+### Skills
+
+- Data Modeling (Hybrid Star–Snowflake Schema)
+- DAX (Measures, calculated columns, time intelligence)
+- Data Cleaning & Transformation (ETL)
+- Data Visualization
+- Business/Commercial Analysis
+
 ### Tools
 
 - Power BI Desktop
