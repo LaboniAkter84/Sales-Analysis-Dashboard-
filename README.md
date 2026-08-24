@@ -140,6 +140,34 @@ Every page shares the same global KPI header — Total Revenue $24.91M, Total CO
 
 **Profit % by Category:** This is the nuance that balances the chart above: despite bikes generating the most revenue, Accessories actually carries the highest profit margin (42.39%), followed by Clothing (29.86%), with Bikes the lowest of the three (27.75%). This is a critical strategic insight — the business should consider bundling and upselling accessories with every bike sale, since accessories are both an easy attach-sale and meaningfully more profitable per dollar of revenue.
 
+## Repository Structure
+
+
+Sales-Analysis-Dashboard/ │ ├── README.md # This file — full project documentation ├── Sales_Dashboard.pbix # Power BI source file ├── Sales_Analysis_Dashboard_PowerBI_Link.docx # Fabric/shareable link doc │ ├── Dataset/ │ ├── Sales_Data.csv │ ├── Returns_Data.csv │ ├── Customer_Lookup.csv │ ├── Product_Lookup.csv │ ├── Product_Subcategories_Lookup.csv │ ├── Product_Categories_Lookup.csv │ ├── Territory_Lookup.csv │ └── Calendar.csv │ ├── Images/ │ ├── Home_page.jpeg │ ├── Map_page.jpeg │ ├── Customer_page.jpeg │ ├── Product_page.jpeg │ └── Data_Modeling.jpeg │ └── Video/ └── Dashboard_Demo.mp4 # Full walkthrough / demo recording
+
+## How to Use This Project
+
+1. Clone/download the repo.
+2. Open `Sales_Dashboard.pbix` in Power BI Desktop (free download from Microsoft).
+3. If prompted, update the data source path to point to the extracted `Dataset` folder.
+4. Explore the four pages via the top navigation bar (Home / Map / Customer / Product).
+5. Or skip installation entirely and open the live shared link at the top of this README.
+
+## How to Upload This Project to GitHub (Step-by-Step)
+
+GitHub has a 100 MB hard limit per file, and your `.pbix` and `.mp4` may be large — so a plain `git push` can fail. Here's the safe way to do it.
+
+**Step 1 — Create the repo.** Go to GitHub → New repository → name it, e.g., `sales-analysis-dashboard`. Skip the auto-generated README since you already have one, then copy the repo's clone URL.
+
+**Step 2 — Organize your files locally.** Recreate the folder structure above on your computer and drop each file into its matching folder — CSVs into `Dataset/`, screenshots into `Images/`, the video into `Video/`.
+
+**Step 3 — Check file sizes.** If any single file (most likely the `.pbix` or `.mp4`) is over 100 MB, you'll need Git LFS (Large File Storage) — GitHub rejects oversized files otherwise.
+
+**Step 4 — Install Git LFS** (once per machine):
+```bash
+git lfs install
+
+
 
 
 
