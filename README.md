@@ -2,7 +2,8 @@
 An end-to-end Power BI dashboard that analyzes global bike & accessories sales data across customers, products, regions, and time — built to uncover revenue drivers, profitability gaps, customer value, and return-rate risk.
 
 ## Dashboard Preview
-Live Power BI (Fabric) Link: https: https://app.powerbi.com/links/nA4WHfC9nM?ctid=3cd07988-5263-4064-ad55-e956ab3dd117&pbi_source=linkShare&bookmarkGuid=d7023ad9-4c19-4043-bb16-006cdfde7a0a
+Live Power BI (Fabric) Link: **[View Live Power BI Dashboard](https://app.powerbi.com/links/nA4WHfC9nM?ctid=3cd07988-5263-4064-ad55-e956ab3dd117&pbi_source=linkShare&bookmarkGuid=d7023ad9-4c19-4043-bb16-006cdfde7a0a)**
+
 
 ## Project Overview
 This project is an interactive business intelligence report analyzing global bike and accessories sales performance, built on a three-year (2020–2022) transactional dataset covering customers, products, returns, and territories.
@@ -124,7 +125,7 @@ Every page shares the same global KPI header — Total Revenue $24.91M, Total CO
 
 **Top 5 Customers by Revenue:** The top spenders — Ian (128K), Morgan (125K), Chloe (119K), Seth (115K), and Kaitlyn (113K) — are tightly clustered, showing revenue concentration isn't dangerously dependent on a single "whale" customer, but does point to a small VIP cohort worth a dedicated retention strategy.
 
-**Total Revenue by Customer Priority** This is the most counter-intuitive finding in the whole report: customers labeled "Average" priority generate the most revenue (12M), followed by "Low" (9M), while "High" (3M) and "High Value" (1M) tiers generate the least revenue. This strongly suggests the current customer-priority labeling is misaligned with actual revenue contribution, and the business may be under-investing attention in its true top-revenue segment while over-prioritizing a small "High Value" tag that isn't actually the most valuable.
+**Total Revenue by Customer Priority:** This is the most counter-intuitive finding in the whole report: customers labeled "Average" priority generate the most revenue (12M), followed by "Low" (9M), while "High" (3M) and "High Value" (1M) tiers generate the least revenue. This strongly suggests the current customer-priority labeling is misaligned with actual revenue contribution, and the business may be under-investing attention in its true top-revenue segment while over-prioritizing a small "High Value" tag that isn't actually the most valuable.
 
 ### 4. Product
 
@@ -135,7 +136,8 @@ Every page shares the same global KPI header — Total Revenue $24.91M, Total CO
 
 **Top Selling Category by Revenue:** Bikes overwhelmingly dominate revenue at 24M, dwarfing Accessories (1M) and Clothing (0M) — bikes are clearly the core product line driving the business.
 
-**Profit % by Category** This is the nuance that balances the chart above: despite bikes generating the most revenue, Accessories actually carries the highest profit margin (42.39%), followed by Clothing (29.86%), with Bikes the lowest of the three (27.75%). This is a critical strategic insight — the business should consider bundling and upselling accessories with every bike sale, since accessories are both an easy attach-sale and meaningfully more profitable per dollar of revenue.
+**Profit % by Category:** This is the nuance that balances the chart above: despite bikes generating the most revenue, Accessories actually carries the highest profit margin (42.39%), followed by Clothing (29.86%), with Bikes the lowest of the three (27.75%). This is a critical strategic insight — the business should consider bundling and upselling accessories with every bike sale, since accessories are both an easy attach-sale and meaningfully more profitable per dollar of revenue.
+
 
 
 
