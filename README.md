@@ -16,46 +16,34 @@ The business had raw transactional data spread across multiple disconnected tabl
 
 
 ## Objectives
-Consolidate sales, returns, customer, product, and territory data into a single relational data model.
-Present company-wide performance (Revenue, COGS, Profit, Profit %, Order Qty) alongside page-level drill-downs for immediate context.
-Analyze the relationship between revenue and profitability at the product-category level to surface hidden margin differences.
-Track geographic performance and return-rate risk by continent, country, and region.
-Evaluate customer-segmentation logic against actual revenue contribution.
-Deliver the analysis as an interactive, explorable report rather than a static summary, enabling stakeholders to drill into the specific view most relevant to their decision-making.
+- Consolidate sales, returns, customer, product, and territory data into a single relational data model.
+- Present company-wide performance (Revenue, COGS, Profit, Profit %, Order Qty) alongside page-level drill-downs for immediate context.
+- Analyze the relationship between revenue and profitability at the product-category level to surface hidden margin differences.
+- Track geographic performance and return-rate risk by continent, country, and region.
+- Evaluate customer-segmentation logic against actual revenue contribution.
+- Deliver the analysis as an interactive, explorable report rather than a static summary, enabling stakeholders to drill into the specific view most relevant to their decision-making.
 
 ## Skills, Tools & Technologies
 
-Tools
+### Tools
 
-Power BI Desktop
+- Power BI Desktop
+- Power BI Fabric (publish + share link)
+- Power Query
+- Skills
+- Data Modeling (Hybrid Star–Snowflake Schema)
+- DAX (Measures, calculated columns, time intelligence)
+- Data Cleaning & Transformation (ETL)
+- Data Visualization
+- Business/Commercial Analysis
 
-Power BI Fabric (publish + share link)
+### Techniques
 
-Power Query
-
-Skills
-
-Data Modeling (Hybrid Star–Snowflake Schema)
-
-DAX (Measures, calculated columns, time intelligence)
-
-Data Cleaning & Transformation (ETL)
-
-Data Visualization
-
-Business/Commercial Analysis
-
-Techniques
-
-Conditional formatting
-
-KPI cards
-
-Toggle-driven metric switching (Revenue/Profit/Order Qty/Cost)
-
-Correlation between revenue and margin
-
-Geographic mapping
+- Conditional formatting
+- KPI cards
+- Toggle-driven metric switching (Revenue/Profit/Order Qty/Cost)
+- Correlation between revenue and margin
+- Geographic mapping
 
 ## Datasets
 
